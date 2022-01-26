@@ -14,11 +14,12 @@ while option != 0:
         contModule.printList()
     elif option == 2:
         contModule.addList()
+        print("\nKontak berhasil ditambahkan!")
     elif option == 3:
         print("Terima kasih sudah menggunakan program ini!")
         exit()
     else:
-        print("Opsi tidak ada.")
+        print("Menu tidak tersedia.\n")
 
     print()
     menu()
